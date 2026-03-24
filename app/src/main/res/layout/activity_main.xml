@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03DEFB"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnShowMessage"
+        style="@style/Widget.Material3.Button.IconButton.Filled"
+        android:layout_width="118dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="49dp"
+        android:background="#DBD7D7"
+        android:text="Show messgage"
+        app:iconTint="#FAF5F5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="195dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="30dp"
+        android:text="KOLTIN HUB"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="384dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="22dp"
+        android:text="Please enter time of the day bellow "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtTimeCal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/txtTimeCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Enter here"
+        android:inputType="text"
+        android:textColor="#F8F6F6"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btnClearInfo"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="17dp"
+        android:text="clear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnShowMessage" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="52dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="180dp"
+        android:text="NOTE!!!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTimeCal" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="131dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="3dp"
+        android:text="Time of the Day are :"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="59dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="176dp"
+        android:text="Morning "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:text="Mid-morning"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="173dp"
+        android:text="Afternoon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:text="Afternoon Snack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="185dp"
+        android:text="Dinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="2dp"
+        android:text="After Dinner/ Night"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="240dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#F4EEEE"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnClearInfo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -22,5 +22,9 @@ clear’s all fields if the user typed the wrong text.
 
 ![image alt](https://github.com/st10515364/MyProject/blob/c3607dc14aef405124a0d7211a46b86b1c9ab23e/Screenshot%202026-03-25%20202416.png)
 
+![image alt](https://github.com/st10515364/MyProject/blob/58bcd555cc6e71dac1f0f42a3964b4fa86e6add7/Screenshot%202026-03-25%20203145.png)
+
+![image alt](https://github.com/st10515364/MyProject/blob/58bcd555cc6e71dac1f0f42a3964b4fa86e6add7/Screenshot%202026-03-25%20203259.png)
+
 
 

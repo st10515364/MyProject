@@ -20,6 +20,7 @@ message using a TextView. If whether the user entered a wrong time on the input 
 error message is then displayed, if that’s not the case there’s a clear button which
 clear’s all fields if the user typed the wrong text.
 
+![image alt](https://github.com/st10515364/MyProject/blob/c3607dc14aef405124a0d7211a46b86b1c9ab23e/Screenshot%202026-03-25%20202416.png)
 
 
 
